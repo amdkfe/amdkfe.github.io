@@ -462,7 +462,7 @@ tr{
 .section_five {
   padding-top: 0px;
   padding: 15px;
-  background: linear-gradient(#ececec,rgba(160, 160, 160, 0.1)), url("https://raw.githubusercontent.com/amdkfe/resume/master/app/assets/images/11.jpg") no-repeat;
+  background: linear-gradient(#ececec,rgba(160, 160, 160, 0.1)), no-repeat;
 }
 
   .section_six i{
@@ -537,13 +537,15 @@ tr{
 }
 
 .button{
-    background-color: #f45a26;
-    padding: 12px;
-    margin: 30px auto;
-    width: 26%;
-    text-align: center;
-    color: white;
-    display: block;
+  background-color: #f45a26;
+  padding: 18px;
+  margin: 30px auto;
+  width: 26%;
+  font-weight: 500;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  display: block;
 }
 
 .section_three {
